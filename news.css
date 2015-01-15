@@ -1,0 +1,294 @@
+body
+{
+	background-color : black; 
+	margin : 0;
+	/*background-image : url('img/body.jpg');
+	background-repeat : no-repeat;
+	background-size : cover;*/
+}
+
+#wrapper
+{
+	background-color : black;
+	background-image : url('img/bg.jpg') ;
+	width : 1000px;
+	height : 1500px;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+.header
+{
+	/* background-color : #02125a; */
+	width : 1000px;
+	height : 300px;
+	margin : 0;
+	text-align : center;
+}
+
+#logo
+{
+	padding-top : 80px;
+	padding-right : 500px;
+}
+
+#logo img
+{
+	height: 48px;
+    width: 260px;
+    margin: 15px 0;
+     -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+
+#logo img:hover {
+    height: 58px;
+    width: 300px;
+    margin-left: -50px;
+}
+
+#logo a
+{
+	border : none;
+}
+
+#menu
+{
+	width : 1000px ;
+	height : 40px;
+	background-color : #717171;
+	margin-left : auto;
+	margin-right : auto;
+	border-bottom-left-radius : 15px;
+	border-bottom-right-radius : 15px;
+	-moz-border-radius-bottomleft : 15px;
+	-moz-border-radius-bottomright : 15px;
+	opacity : 0.5;
+	padding-top : 0;
+	text-align : center;
+}
+
+.nav
+{
+	width : 150px ;
+	height : 40px ;
+	display : inline ;
+	float : left ;
+	text-align : center;
+	font-size : 17px;
+	font-family : purista-web,sans-serif;
+	letter-spacing : 0px;
+	text-transform : uppercase;
+	background-color : #717171;
+}
+
+.nav:hover
+{
+	background-color : #d7620c;
+	transition : all 0.1s ease-in-out 0s ;
+}
+
+#buy
+{
+	background-image : url('img/buy.png');
+	background-repeat : no-repeat;
+	background-size : cover;
+	background-position : center;
+}
+
+#buy:hover
+{
+	background-image : url('img/buyh.png');
+	background-repeat : no-repeat;
+	background-size : cover;
+	background-position : center;
+	transition : all 0.1s ease-in-out 0s ;
+	box-shadow : 0pt 0pt 10px rgb(224, 244, 248);
+}
+
+#menu:hover { opacity : 1; }
+
+.nav p { margin-top: 10px; font-weight : bold; color : white;}
+
+#fnav { margin-left : 50px; }
+
+
+a
+{
+	text-decoration : none;
+	color : white;
+	
+}
+
+li a:hover
+{
+	color : #FF8000;
+}
+
+#main
+{
+	display : bloc;
+	background-color: rgb(113, 113, 113);
+	width : 1000px;
+	margin-top : 15px;
+	margin-bottom : 20px;
+	border-radius : 15px;
+	-moz-border-radius : 15px;
+	opacity : 0.8;
+	padding-top: 30px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#main h1
+{
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 15px;
+	border-bottom: solid black 1px;
+	margin-bottom: 0px;
+}
+
+#liste
+{
+	padding-top: 0px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: left;
+	margin-left : 30px;
+	margin-right : 30px;
+	margin-top : 0px;
+	background-color : #eee;
+}
+
+.new p
+{
+	float : left;
+	margin-top : 0px;
+	margin-bottom: 5px;
+	/*border : solid black 1px;*/
+	padding-left : 10px;
+	width : 580px;
+	clear : both;
+}
+
+
+#liste h2
+{
+	line-height: .2em;
+	width : 170px;
+	margin-bottom: 15px;
+}
+
+h3
+{
+	margin-top : 0;
+	padding-bottom : 0;
+	margin-bottom : 0;
+	padding-left : 10px;
+}
+
+.new
+{
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-bottom : 5px;
+	border-bottom: dotted black 1px;
+}
+
+.new:last-child
+{
+	padding-top: 5px;
+	padding-left: 5px;
+	border-bottom: none;
+}
+
+.new img
+{
+	border : solid black 1px;
+	padding-top: 0px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	width: 170px;
+	float: right;
+}
+
+
+.new:after
+{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+
+#footer
+{
+	text-align : center;
+	background-color : #717171;
+	width : 1000px;
+	height : 220px;
+	margin : 0;
+	opacity : .3;
+	border-top-left-radius : 15px;
+	border-top-right-radius : 15px;
+	clear : both;
+}
+
+
+
+#footer img
+{
+	width : 175px;
+	margin-left : 25px;
+	border-top-left-radius : 15px;
+	-moz-border-radius-topleft : 15px;
+}
+
+#footer:hover
+{
+	opacity : .8;
+	transition : all 0.7s ease-in-out 0s ;
+}
+
+#fb
+{
+	width : 175px;
+	height : 175px;
+	float : right; 
+	margin-right : 0px;
+	background-image : url('img/fbh.png');
+	background-repeat : no-repeat;
+	background-size : cover;
+	background-position : center;
+	display : inline ;
+}
+
+#fb:hover { background-image : url('img/fb.png'); }
+
+#footer a
+{
+	color : black;
+}
+
+#footer a:hover
+{
+	text-decoration : underline;
+}
+
+
+#footer span
+{
+	font-size : 1.1em;
+	border-right : solid black 1px;
+	padding-right: 1em;
+}
+
+#footer span:last-child
+{
+	border : none;
+	padding-left : 0.8em;
+}
